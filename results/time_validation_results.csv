@@ -1,0 +1,4 @@
+﻿round,train_records,validation_records,actual_positive_cases,Accuracy,Precision,Recall,F1-score,TN,FP,FN,TP
+Fold 1,360,81,6,0.9259,0.0,0.0,0.0,75,0,6,0
+Fold 2,441,78,7,0.9231,1.0,0.1429,0.25,71,0,6,1
+Fold 3,519,87,2,0.977,0.0,0.0,0.0,85,0,2,0

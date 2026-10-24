@@ -1,0 +1,11 @@
+﻿Feature,Importance
+previous_change_pct,0.1907
+c_wheat_flour,0.167
+year,0.1407
+price_lag_1,0.1349
+price_rolling_mean_3,0.1241
+price_lag_2,0.1103
+month,0.0702
+mkt_name_Dhamar City,0.0263
+mkt_name_Sana'a City,0.0205
+mkt_name_Aden City,0.0153

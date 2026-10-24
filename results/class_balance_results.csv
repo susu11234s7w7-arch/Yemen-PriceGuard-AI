@@ -1,0 +1,7 @@
+﻿round,split,total_records,class_0_no_rise,class_1_rise,rise_percentage
+Fold 1,Train,360,324,36,10.0
+Fold 1,Validation,81,75,6,7.41
+Fold 2,Train,441,400,41,9.3
+Fold 2,Validation,78,71,7,8.97
+Fold 3,Train,519,470,49,9.44
+Fold 3,Validation,87,85,2,2.3

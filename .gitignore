@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local source data (download separately; check source terms before redistribution)
+YEM_RTFP_mkt_2009_2026-03-24.zip
+priceguard_data/
+
+# Local experiment outputs and trained artifacts
+priceguard_results/
+*.joblib
+*.pkl
+*.log
