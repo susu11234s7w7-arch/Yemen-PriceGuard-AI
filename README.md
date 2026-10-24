@@ -37,6 +37,10 @@ The notebook expects the archive to contain `YEM_RTFP_mkt_2009_2026-03-24.csv` a
 - After historical feature engineering: 609 modeling rows (203 per market).
 - Positive cases after feature engineering: 51 (about 8.37%).
 
+## Chronological holdout after boundary correction
+
+For the feature-engineered 80/20 holdout, one boundary record per market is excluded because its label depends on the next month. The resulting split is 483 training rows, 123 test rows, and 3 excluded boundary records. The test set has only two positive cases. On this split, Random Forest recorded Accuracy 0.8455, Precision 0.0526, Recall 0.5000, and F1 0.0952, with confusion matrix `[[103, 18], [1, 1]]` (TN, FP; FN, TP). These are unstable estimates and should not be interpreted as reliable performance.
+
 ## Main corrected temporal-validation results
 | Fold | Validation rows | Actual positive cases | Accuracy | Precision | Recall | F1 |
 |---|---:|---:|---:|---:|---:|---:|
@@ -55,7 +59,6 @@ Yemen-PriceGuard-AI/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── UPLOAD_TO_GITHUB_WINDOWS.bat
 ├── data/
 │   └── README.md
 ├── docs/
